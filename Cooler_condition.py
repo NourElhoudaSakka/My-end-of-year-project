@@ -107,6 +107,7 @@ tpot_score_test = accuracy_score(prep.Target_test['Stable flag'], prediction_tes
 
 #       Choosing the best model
 choice = {"Logistic Regression": [reg_score_train, reg_score_test], 
+
  "Support Vector Machine": [svm_score_train, svm_score_test], 
   "K-Nearest Neighbours": [knn_score_train, knn_score_test], 
   'Naïve Bayes': [gauss_score_train, gauss_score_test], 
